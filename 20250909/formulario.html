@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+        <form action="cadastro.php" method="post">
+            <p><label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+                <!--placeholder - dica que fica dentro da caixinha-->
+            </p>
+            <p><label>Senha:</label>
+                <input type="password" name="senha" required maxlength="8">
+                <!--required maxlength - limite de caracteres-->
+                <!--password - esconde a escrita-->
+            </p>
+            <input type="submit" value="Enviar">
+            <!--value - o que esta escrito dentro do botão-->
+        </form>
+</body>
+</html>
