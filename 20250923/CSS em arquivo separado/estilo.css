@@ -1,0 +1,169 @@
+.menu{
+    list-style: none;
+    padding: 0px 15px 15px 15px;
+    margin: 0px;
+    background-color: #5e9cb9;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.limenu{
+    float: left;
+    padding: 7px;
+}
+
+li{
+    position: relative;
+}
+
+.sub{
+    display: none;
+    position: absolute;
+    top: 100%;             /* aparece abaixo do item pai */
+    left: 0;
+    background-color: #41adb9;
+    min-width: 150px;
+}
+
+.linksub {
+    padding: 10px;
+}
+
+/* Mostrar submenu no hover */
+li:hover > ul {
+    display: block;
+}
+
+a:visited{
+    color: rgb(29, 53, 93);
+}
+
+a:hover{
+    color: rgb(26, 43, 63);
+    text-decoration: underline;
+}
+
+a:active{
+    color: azure;
+    text-decoration: underline;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    background-color: #5e9cb9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: medium;
+    text-align: center;
+    
+}
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px 5px 20px;
+}
+
+#img1{
+    height: 160px;
+    width: 305px;
+    border-radius: 20px;
+    margin-left: 300px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+#img2{
+    width: 250px;
+    height: 240px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-bottom: -30px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+#img3{
+    height: 200px;
+    width: 202px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    margin-left: 37px;
+}
+
+#img4{
+    height: 200px;
+    width: 220px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    margin-left: 80px;
+}
+
+#img5{
+    height: 200px;
+    width: 220px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    margin-left: 80px;
+}
+
+#img6{
+    height: 200px;
+    width: 220px;
+    border: 2px solid #5e9cb9;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    margin-left: 80px;
+}
+
+#div1{
+    margin-top: 10px;
+    background-color: #77c8ed;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3)
+}
+#div2{
+    text-align: center;
+    background-color: #5e9cb9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 20px 0px;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin: 0px 20px 40px 20px;
+}
+
+tr{
+    text-align: center;
+    border: 2px solid black;
+}
+
+td {
+    text-align: left;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/*
+Lista (personalização dos marcadores).
+Tabela (bordas e cores alternadas nas linhas).
+Links (cores nos estados link, visited, hover e active).
