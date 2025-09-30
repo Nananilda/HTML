@@ -1,0 +1,55 @@
+button{
+    background-color: darkorchid;
+    color: white;
+    transition: background 0.5s ease; /* duração do efeito */
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover{
+    background: purple;
+    transform: scale(1.2);
+}
+
+@keyframes piscar{
+    0% { opacity: 1;} 
+    50% { opacity: 0;} 
+    100% { opacity: 1;} 
+}
+
+#div{
+    animation: piscar 2s 16;
+    background-color: darkviolet;
+    border-radius: 15px;
+}
+
+div:hover{
+    transform: translate(50px 20px);    /* x, y */
+}
+
+@keyframes infinito{
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(-360deg);
+   }
+}
+
+img:hover{
+    animation: infinito 0.3s linear infinite;
+    transition: transform 0.5s;
+}
+
+img{
+    opacity: 0.7;
+    border-radius: 15px;
+}
+
+#div2{
+    background: linear-gradient(to right, red, yellow, rgb(51, 193, 51), blue, purple, pink);
+}
+
+#div3{
+    background: radial-gradient(circle, rgb(146, 38, 182), rgb(201, 42, 207));
+}
