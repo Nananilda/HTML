@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(251, 241, 255)
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    margin-left: 565px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* navegação */
+a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+a:hover{
+    color: thistle;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(96, 43, 112);
+    height: 100px;
+    width: 1483px;
+    margin-left: -10px;
+    margin-top: -30;
+    padding: 20px;
+
+}
+
+/* grid container */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /*justify-content: flex-start;*/
+}
+
+/* listas */
+li, ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tabela */
+table{
+    justify-self: center;
+}
+
+#div1{
+    margin: 20px;
+}
+
+/* importancia */
+.imp{
+    margin-left: 200px;
+    margin-right: 250px;
+}
+
+
+th, tr{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+
+.img{
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+#div2{
+    background-color: rgb(255, 255, 255);
+}
